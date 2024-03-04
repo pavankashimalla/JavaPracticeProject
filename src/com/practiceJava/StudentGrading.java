@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StudentGrading {
     public void initiateGrading(){
         AuthenticationService authenticationServiceObject = new AuthenticationService("pavan@123","kumar123");
-        boolean authenticationStatus = authenticationServiceObject.initiateAuthenticate();
+        boolean authenticationStatus = authenticationServiceObject.forEach();
         if (authenticationStatus){
             readMarksFromUserAndPrintGrade();
         }

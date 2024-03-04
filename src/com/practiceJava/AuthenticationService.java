@@ -12,12 +12,40 @@ public class AuthenticationService {
     }
 
     public boolean initiateAuthenticate(){
-        Scanner scannerObject = new Scanner(System.in);
-        System.out.println("Enter the userName : ");
-        String user = scannerObject.nextLine();
-        System.out.println("Enter the password : ");
-        String password = scannerObject.nextLine();
-        boolean result = authenticate(user , password);
+        boolean result =false;
+
+        int counter = 1;
+        //not false = true
+        while(!result && counter <= 5){
+            Scanner scannerObject = new Scanner(System.in);
+            System.out.println("Enter the userName : ");
+            String user = scannerObject.nextLine();
+            System.out.println("Enter the password : ");
+            String password = scannerObject.nextLine();
+            result = authenticate(user , password);
+            counter ++;
+        }
+
+        return result;
+    }
+    public boolean forEach(){
+        boolean result = false;
+       //if ( result = false){
+
+
+            int counter = 1;
+            for (;!result && counter <= 5;counter ++) {
+                Scanner scannerObject = new Scanner(System.in);
+                System.out.println("Enter the userName : ");
+                String user = scannerObject.nextLine();
+                System.out.println("Enter the password : ");
+                String password = scannerObject.nextLine();
+                result = authenticate(user, password);
+            }
+        //}
+      // else {
+          // result = true;
+      //  }
         return result;
     }
     public boolean authenticate(String userName , String password){
