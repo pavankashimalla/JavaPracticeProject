@@ -8,7 +8,7 @@ public class ForLoopDemo {
         int number1 = scannerObject.nextInt();
         System.out.println("Enter Ending Number :");
         int number2 = scannerObject.nextInt();
-        // printingNumbers(number1 , number2);
+        printingNumbers(number1 , number2);
         // printAlternateNumbers(number1 , number2);
 
     }
@@ -46,6 +46,8 @@ public class ForLoopDemo {
         }
 
     }
+
+
     public static void main(String[] args){
         ForLoopDemo object = new ForLoopDemo();
       //  object.userInputs();
