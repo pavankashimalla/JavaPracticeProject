@@ -2,13 +2,14 @@ package com.practiceJava;
 import java.util.Scanner;
 
 public class ArraysPractice {
-    public void takingUserInputs(){
-        Scanner scannerObject = new Scanner(System.in);
-        System.out.println("Enter ArraySize : ");
-        int arraySize = scannerObject.nextInt();
 
-        int[] numbersArray = new int[arraySize];
-        for (int index = 0 ; index < numbersArray.length;index ++){
+   public void takingUserInputs(){
+       // Scanner scannerObject = new Scanner(System.in);
+       // System.out.println("Enter ArraySize : ");
+     //   int arraySize = scannerObject.nextInt();
+
+        int[] numbersArray = new int[]{2,4,7,2,8,4,9,0,0,-1,-3,-2};
+        /*for (int index = 0 ; index < numbersArray.length;index ++){
             System.out.println("Enter ArrayValue : ");
             int arrayValue = scannerObject.nextInt();
             numbersArray[index] = arrayValue ;
@@ -16,14 +17,35 @@ public class ArraysPractice {
 
         for (int index = 0 ; index < numbersArray.length ; index ++){
             System.out.println(index +"=" + numbersArray[index]);
-        }
+        }*/
        // valueBasedSearch(numbersArray);
-        //indexBasedSearch(numbersArray);
+     //   indexBasedSearch(numbersArray);
         //valueBasedCounter(numbersArray);
         //printEvenNumbers(numbersArray);
        // printReverseNumbers(numbersArray);
-        evenOddArray(numbersArray);
+       // evenOddArray(numbersArray);
+       updateArray(numbersArray);
     }
+        //int[] numbersArray = new int[]{2,4,7,2,8,4,9,0,0,-1,-3,-2};
+   public void updateArray(int[] numbersArray){
+        Scanner scObject = new Scanner(System.in);
+        System.out.println("Enter number to find : ");
+        int findNumber = scObject.nextInt();
+        System.out.println("Enter number to replace : ");
+        int replaceNumber = scObject.nextInt();
+
+        for (int i = 0 ; i < numbersArray.length ; i ++){
+            if (numbersArray[i] == findNumber){
+                numbersArray[i] = replaceNumber ;
+                numbersArray[i] = numbersArray[i] * 3 ;
+            }
+        }
+        for (int i = 0 ; i < numbersArray.length ; i ++){
+            System.out.println(numbersArray[i]);
+        }
+
+
+   }
 
     public void valueBasedSearch(int[] array)  {
         boolean numberFound = false;
@@ -116,8 +138,10 @@ public class ArraysPractice {
         System.out.println(oddArray[i]);
         }
 
-        mergingArrays(evenArray , oddArray);
-            mergingArraysReverse(evenArray , oddArray);
+        //mergingArrays(evenArray , oddArray);
+          //  mergingArraysReverse(evenArray , oddArray);
+           // mergingReverse(evenArray , oddArray);
+           // mergingReverseWhileLoop(evenArray , oddArray);
 
         }
 
@@ -166,11 +190,11 @@ public class ArraysPractice {
         int[] allVariableArray = new int[evenArray.length + oddArray.length];
         int allVariableIndex = allVariableArray.length - 1;
 
-        for (int i = evenArray.length - 1 ; i < evenArray.length ; i --){
+        for (int i = evenArray.length - 1 ; i >= 0 ; i --){
           allVariableArray[allVariableIndex] = evenArray[i];
           allVariableIndex -- ;
         }
-        for (int i = oddArray.length - 1 ; i < oddArray.length ; i --){
+        for (int i = oddArray.length - 1 ; i >= 0 ; i --){
             allVariableArray[allVariableIndex] = oddArray[i];
             allVariableIndex -- ;
         }
@@ -184,20 +208,21 @@ public class ArraysPractice {
         int allVariableIndex = allVariableArray.length - 1;
         int i = evenArray.length - 1;
         int j = oddArray.length - 1 ;
-        while ( i < evenArray.length ){
+
+        while ( i >= 0 ){
             allVariableArray[allVariableIndex] = evenArray[i];
             allVariableIndex -- ;
             i -- ;
         }
-        while (  j < oddArray.length ){
-            allVariableArray[allVariableIndex] = oddArray[i];
+        while (  j >= 0 ){
+            allVariableArray[allVariableIndex] = oddArray[j];
             allVariableIndex -- ;
             j -- ;
         }
-        System.out.println("Reverse merging values are : ");
+        System.out.println("Reverse merging values in while loop  : ");
         int k = 0 ;
         while ( k < allVariableArray.length ){
-            System.out.println(allVariableArray[i]);
+            System.out.println(allVariableArray[k]);
             k++ ;
         }
     }
@@ -206,7 +231,9 @@ public class ArraysPractice {
     public static void main(String[] args){
         ArraysPractice object = new ArraysPractice();
         object.takingUserInputs();
-    }
+
+
+   }
 
 
 
