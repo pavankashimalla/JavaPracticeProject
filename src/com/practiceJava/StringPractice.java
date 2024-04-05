@@ -11,19 +11,51 @@ public class StringPractice {
       //  String myString = "aaa bbb ccc ddd eee fff";
 
        // subStringPractice(myString);
+        String myString = "praveen";
+       char repetitiveString = 'e';
+       // repetitiveCharacter(myString);
+        repetitiveCharacterArray(myString , repetitiveString);
 
-        String[] givenString = new String[]{"java","madam","level","devil","aabaa"};
+       // String[] givenString = new String[]{"java","madam","level","devil","aabaa"};
       //  String separator = ",";
        // charReverse(givenString);
       //  isStringPalindrome(givenString);
       //  stringSplit(givenString ,separator );
       //  stringArrayPalindrome(givenString);
       // creatingPalindromeArrays(givenString);
-       reverseCreatingPalindromes(givenString);
+      // reverseCreatingPalindromes(givenString);
        // creatingNewArraySize(givenString);
        // stringPalindromePractice(givenString);
+    }
+    public void repetitiveCharacter(String myString){
+        for (int i = 0 ; i < myString.length() ; i++){
+          char eachCharacterToCompare = myString.charAt(i); //pavan
+            String subString = myString.substring(i+1); //avan
+          for (int j = 0 ; j < subString.length() ; j++){
+             char comparingCharacter = subString.charAt(j);
+             if (eachCharacterToCompare == comparingCharacter){
+                 System.out.println(eachCharacterToCompare);
+             }
+          }
+        }
+    }
+    public char repetitiveCharacterArray(String myString , char repetitiveString){
+        int arraySize = myString.length();
+        char[] repetitiveArray = new char[arraySize];
+        int counter = 0 ;
 
+        for (int i = 0 ; i < myString.length() ; i++){
+         char eachCharacterToCompare = myString.charAt(i);
+         if (eachCharacterToCompare == repetitiveString){
+             repetitiveArray[counter] = eachCharacterToCompare;
+             counter++;
+          }
+        }
+        for (int i = 0 ; i < repetitiveArray.length ; i++){
+            System.out.println(repetitiveArray[i]);
+        }
 
+        return repetitiveString;
     }
     public void creatingNewArraySize(String[] givenString){
 
@@ -43,9 +75,6 @@ public class StringPractice {
         }
     }
 
-
-
-
     public void reverseCreatingPalindromes(String[] myString){
 
         int arraySize = myString.length;
@@ -59,7 +88,10 @@ public class StringPractice {
        for (int i = 0 ; i < myString.length ; i++){
            String stringVariable = myString[i];
 
-          boolean isPalindrome = stringPalindrome(stringVariable);
+         String reverseString = stringReverse(stringVariable);
+        boolean isPalindrome = palindromeString(reverseString , stringVariable);
+
+         // boolean isPalindrome = stringPalindrome(stringVariable);
 
            if (isPalindrome){
                palindromeArray[palindromeCounter] = stringVariable;
@@ -159,8 +191,11 @@ public class StringPractice {
         for (int i = 0 ; i < myString.length ; i++){
           String stringVariable = myString[i];
 
-         boolean isPalindrome = stringPalindrome(stringVariable);
-            if (isPalindrome){
+        String reverseString = stringReverse(stringVariable);
+      boolean isPalindrome = palindromeString(reverseString , stringVariable);
+
+
+      if (isPalindrome){
               palindromeArray[palindromeArrayCounter]  = stringVariable;
               palindromeArrayCounter++;
             }else {
@@ -170,10 +205,23 @@ public class StringPractice {
         }
     }
 
-    public void stringReverse(String myString){
+    public String stringReverse(String myStringVariable){
+        String reverseString = "";
+        int stringSize = myStringVariable.length();
+        int lastIndex = stringSize - 1 ;
+        for(int i = lastIndex ; i >= 0 ; i--){
+           char character = myStringVariable.charAt(i);
+            reverseString = reverseString + character;
 
-
-
+        }
+        return reverseString;
+    }
+    public boolean palindromeString(String reverseString , String stringVariable){
+        if (reverseString.equals(stringVariable)){
+            return true;
+        }else {
+            return false;
+        }
     }
 
 
@@ -313,6 +361,7 @@ public class StringPractice {
     public static void main(String[] args){
         StringPractice object = new StringPractice();
         object.myMainMethod();
+
     }
 
 }

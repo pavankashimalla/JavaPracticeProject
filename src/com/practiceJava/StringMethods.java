@@ -16,12 +16,12 @@ public class StringMethods {
        //  indexOf(myString);                                //        int
       //  hashCode(myString2);                                       int
       //  empty(myString);                                          boolean
-        lastIndexOf(myString);                                //     int
+       // lastIndexOf(myString);                                //     int
        // replace(myString);                                        //String
        // replaceFirst(myString);                                //   String
        // split(myString);                                          String[]
        // subString(myString);                                      String
-      //  toCharArray(myString);                                  //  char[]
+        toCharArray(myString);                                  //  char[]
        // toLowerCase(myString);                                    String
        // toUpperCase(myString);                                    String
        // trim(myString2);                                          String
