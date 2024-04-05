@@ -54,7 +54,6 @@ public class StringPractice {
         for (int i = 0 ; i < repetitiveArray.length ; i++){
             System.out.println(repetitiveArray[i]);
         }
-
         return repetitiveString;
     }
     public void creatingNewArraySize(String[] givenString){
