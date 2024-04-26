@@ -109,8 +109,6 @@ public class StringPractice {
         for (int i = 0 ; i < afterSplit.length ; i++){
             System.out.println(afterSplit[i]);
         }
-
-
     }
     public void charReverse(String givenString){
         String emptyVariable = "";
