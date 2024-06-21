@@ -6,17 +6,17 @@ public class StringArrayPractice {
     public void myMainMethod(){
         String[] myStringArray = new String[]{"Java","is","a","object","oriented","program","java","program"};
 
-        //stringBasedSearch(myStringArray);
-       // indexBasedSearch(myStringArray);
-       //stringBasedCounter(myStringArray);
-      //  printReverseString(myStringArray);
-       // swappingPractice();
+        stringBasedSearch(myStringArray);
+        indexBasedSearch(myStringArray);
+        stringBasedCounter(myStringArray);
+        printReverseString(myStringArray);
+        swappingPractice();
         swappingArray();
-       // swappingIntArray();
-       // swappingWithInt();
-       // numbersOutput();
-       // charOutput();
-       // numberArrayOutput();
+        swappingIntArray();
+        swappingWithInt();
+        numbersOutput();
+        charOutput();
+        numberArrayOutput();
     }
     public void swappingPractice(){
         int a = 10 ;

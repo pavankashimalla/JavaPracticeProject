@@ -11,6 +11,7 @@ public class StudentGrading {
             System.out.println("Wrong details - please enter correct details");
         }
 
+
     }
       public void readMarksFromUserAndPrintGrade(){
         Scanner scanner = new Scanner(System.in);
@@ -63,8 +64,8 @@ public class StudentGrading {
     }
 
     public static void main (String[] args){
-        StudentGrading object2 = new StudentGrading();
-        object2.initiateGrading();
+        StudentGrading object = new StudentGrading();
+        object.initiateGrading();
     }
 
 }

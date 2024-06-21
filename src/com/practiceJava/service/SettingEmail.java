@@ -1,7 +1,9 @@
 package com.practiceJava.service;
 
 import com.practiceJava.models.Employee;
+import com.practiceJava.models.Addresses;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SettingEmail {
@@ -29,6 +31,14 @@ public Employee[] prepareData(){
     employeeObject1.setLastName("k");
     employeeObject1.setCompany("java");
     employeeObject1.setSalary(10000);
+    Addresses emp1Address1 = preparingAddress("road5" ,"9-0-88" , " ts" , "kmm" ,90087);
+    //employeeObject1.setAddresses(address1);
+    ArrayList<Addresses> addressesArrayList = new ArrayList<>();
+    Addresses emp1Address2 = preparingAddress("road 6" , "0-8-9" , "ts" ,"kmm" , 56008);
+    addressesArrayList.add(emp1Address1);
+    addressesArrayList.add(emp1Address2);
+    employeeObject1.setAddressesArrayList(addressesArrayList);
+
 
 
     Employee employeeObject2 = new Employee();
@@ -37,6 +47,13 @@ public Employee[] prepareData(){
     employeeObject2.setLastName("s");
     employeeObject2.setCompany("python");
     employeeObject2.setSalary(24000);
+    Addresses emp2Address1 = preparingAddress("fastRoad" ,"4-8-4","AP","vij",70089);
+   // employeeObject2.setAddresses(address2);
+    ArrayList<Addresses> addressesArrayList1 = new ArrayList<>();
+    Addresses emp2Address2 = preparingAddress("fastRoad2" ,"9-7-2", "mp","vij",70097);
+    addressesArrayList1.add(emp2Address1);
+    addressesArrayList1.add(emp2Address2);
+    employeeObject2.setAddressesArrayList(addressesArrayList1);
 
 
     Employee employeeObject3 = new Employee();
@@ -45,6 +62,13 @@ public Employee[] prepareData(){
     employeeObject3.setLastName("m");
     employeeObject3.setCompany("sql");
     employeeObject3.setSalary(46000);
+    Addresses emp3Address1 = preparingAddress("lastN","28-9-0","Ap","ellur",60902);
+   // employeeObject3.setAddresses(address3);
+    ArrayList<Addresses> addressesArrayList2 = new ArrayList<>();
+    Addresses emp3Address2 = preparingAddress("lastn1","37-3-0","up","kmm",600987);
+    addressesArrayList2.add(emp3Address1);
+    addressesArrayList2.add(emp3Address2);
+    employeeObject3.setAddressesArrayList(addressesArrayList2);
 
     Employee[] employees = new Employee[3];
     employees[0] = employeeObject1;
@@ -52,6 +76,18 @@ public Employee[] prepareData(){
     employees[2] = employeeObject3;
 
     return employees;
+
+}
+public Addresses preparingAddress(String roadName , String houseNumber , String state , String city , int pincode){
+    Addresses addressObject = new Addresses();
+    addressObject.setRoadName(roadName);
+    addressObject.setHouseNumber(houseNumber);
+    addressObject.setState(state);
+    addressObject.setCity(city);
+    addressObject.setPinCode(pincode);
+
+
+    return addressObject;
 
 }
 public void updateEmail(Employee[] employees){
@@ -87,24 +123,25 @@ public void printEmployeeDetails(Employee[] employees){
      String firstName = employeeObject.getFirstName();
 
      int salary = employeeObject.getSalary();
+
        //emailid of first name is emailid , salary is updateSalary;
         System.out.println("Email id of " + firstName + " is " + emailid + " and " + " salary " + " is " + salary);
     }
 
 }
-  public void myMainMethod(SettingEmail sc){
-      Employee[] employeesArray = sc.prepareData();
-      sc.updateEmail(employeesArray);
-      sc.updateSalary(employeesArray);
-      sc.printEmployeeDetails(employeesArray);
+  public void myMainMethod(){
+      Employee[] employeesArray = prepareData();
+      updateEmail(employeesArray);
+      updateSalary(employeesArray);
+      printEmployeeDetails(employeesArray);
 
 
       //prepare data
       //upadate emailid
-      //print emain ids
+      //print email ids
   }
     public static void main(String[] args) {
         SettingEmail sc = new SettingEmail();
-        sc.myMainMethod(sc);
+        sc.myMainMethod();
     }
 }

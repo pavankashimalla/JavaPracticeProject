@@ -4,31 +4,31 @@ package com.practiceJava;
 
 public class StringMethods {
     public void myStringArray(){
-        String myString = "Java n  Is A Objectn,Oriented Program nn ";
+        String myString = "Java n  Is A Objectn,Oriented, Program nn ";
         String myString2 = "        hello world 2521                   ";
 
-        // charAtIndex(myString);                                    char
-      // intLength(myString);                                        int
-       // endsWith(myString);                                       boolean
-       // contains(myString);                                       boolean
-       // equalsIgnore(myString , myString2);                       boolean
-      //  equals(myString , myString2);                             boolean
+       //  charAtIndex(myString);                          //          char
+      // intLength(myString);                               //         int
+       // endsWith(myString);                                 //      boolean
+       // contains(myString);                                   //    boolean
+       // equalsIgnore(myString , myString2);                   //    boolean
+      //  equals(myString , myString2);                         //    boolean
        //  indexOf(myString);                                //        int
-      //  hashCode(myString2);                                       int
-      //  empty(myString);                                          boolean
+      //  hashCode(myString2);                                  //      int
+      //  empty(myString);                                      //    boolean
        // lastIndexOf(myString);                                //     int
-       // replace(myString);                                        //String
+       // replace(myString);                                      // String
        // replaceFirst(myString);                                //   String
-       // split(myString);                                          String[]
-       // subString(myString);                                      String
-        toCharArray(myString);                                  //  char[]
-       // toLowerCase(myString);                                    String
-       // toUpperCase(myString);                                    String
-       // trim(myString2);                                          String
+       // split(myString);                                        //  String[]
+       // subString(myString);                                    //  String
+      //  toCharArray(myString);                                  //  char[]
+       // toLowerCase(myString);                                   // String
+       // toUpperCase(myString);                                   // String
+       // trim(myString2);                                         // String
     }
     public void charAtIndex(String myString){
 
-        char result = myString.charAt(0);
+        char result = myString.charAt(3);
         System.out.println(result);
     }
     public void intLength(String myString){
@@ -81,7 +81,7 @@ public class StringMethods {
 
     }
     public void split(String myString){
-    String[] result = myString.split(",");
+    String[] result = myString.split("P");
     for (int i = 0 ; i < result.length ; i++){
         System.out.println(result[i]);
     }

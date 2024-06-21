@@ -7,10 +7,10 @@ public class CharArrayPractice {
     public void myMainMethod(){
         char[] myCharArray = new char[] {'P','A','V','A','n','1','5','.','{','@'};
 
-       // valueBasedSearch(myCharArray);
-       // indexBasedSearch(myCharArray);
+        valueBasedSearch(myCharArray);
+        indexBasedSearch(myCharArray);
         valueBasedCounter(myCharArray);
-       // printReverseChar(myCharArray);
+        printReverseChar(myCharArray);
     }
     public void valueBasedSearch (char[] inPutCharArray){
         boolean numberFound = false;

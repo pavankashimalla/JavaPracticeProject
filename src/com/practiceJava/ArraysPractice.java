@@ -18,12 +18,12 @@ public class ArraysPractice {
         for (int index = 0 ; index < numbersArray.length ; index ++){
             System.out.println(index +"=" + numbersArray[index]);
         }*/
-       // valueBasedSearch(numbersArray);
-     //   indexBasedSearch(numbersArray);
-        //valueBasedCounter(numbersArray);
-        //printEvenNumbers(numbersArray);
-       // printReverseNumbers(numbersArray);
-       // evenOddArray(numbersArray);
+         valueBasedSearch(numbersArray);
+        indexBasedSearch(numbersArray);
+        valueBasedCounter(numbersArray);
+        printEvenNumbers(numbersArray);
+        printReverseNumbers(numbersArray);
+        evenOddArray(numbersArray);
        updateArray(numbersArray);
     }
         //int[] numbersArray = new int[]{2,4,7,2,8,4,9,0,0,-1,-3,-2};
@@ -73,12 +73,12 @@ public class ArraysPractice {
     }
         public void valueBasedCounter(int[] array){
         Scanner scannerObject4 = new Scanner(System.in);
-        System.out.println("Enter the number :");
+        System.out.println("Enter the number : ");
         int userInputNumber = scannerObject4.nextInt();
 
         int counter = 0;
         for ( int i = 0 ; i < array.length ; i++){
-            if (array[i] ==  userInputNumber){
+            if (array[i] == userInputNumber){
                counter++;
             }
         }
@@ -138,10 +138,10 @@ public class ArraysPractice {
         System.out.println(oddArray[i]);
         }
 
-        //mergingArrays(evenArray , oddArray);
-          //  mergingArraysReverse(evenArray , oddArray);
-           // mergingReverse(evenArray , oddArray);
-           // mergingReverseWhileLoop(evenArray , oddArray);
+        mergingArrays(evenArray , oddArray);
+        mergingArraysReverse(evenArray , oddArray);
+        mergingReverse(evenArray , oddArray);
+        mergingReverseWhileLoop(evenArray , oddArray);
 
         }
 

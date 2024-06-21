@@ -4,23 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1198d63c-23e7-49f3-9d70-ff0db1b3b1b4" name="Changes" comment="String methods practice">
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/abstractPractice/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/abstractPractice/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/abstractPractice/InterfaceAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/abstractPractice/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/encapsulation/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/encapsulation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/encapsulation/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Addresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java" afterDir="false" />
+    <list default="true" id="1198d63c-23e7-49f3-9d70-ff0db1b3b1b4" name="Changes" comment="oops practice">
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/AllMathOperationsWithThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/AllMathOperationsWithTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/MyMainMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StringPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StringPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/models/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Addresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -97,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vehicle" />
         <item itemvalue="Application.AllOperations" />
+        <item itemvalue="Application.Vehicle" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712297289829</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oops practice">
+      <option name="closed" value="true" />
+      <created>1714118781004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714118781004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +202,8 @@
     <MESSAGE value="For  loop demo" />
     <MESSAGE value="Arrays Practice" />
     <MESSAGE value="String methods practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="String methods practice" />
+    <MESSAGE value="oops practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,12 +230,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java</url>
-          <line>65</line>
+          <line>66</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -236,78 +250,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java</url>
-          <line>51</line>
+          <line>54</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java</url>
           <line>27</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>229</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>170</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>204</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java</url>
@@ -338,11 +287,6 @@
           <url>file://$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java</url>
           <line>51</line>
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/StringPractice.java</url>
@@ -416,33 +360,213 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>106</line>
+          <line>143</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="117" />
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="118" />
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="119" />
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice1.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice1.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice1.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice4.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice5.java</url>
           <line>25</line>
-          <option name="timeStamp" value="120" />
+          <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="121" />
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice5.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice5.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -456,6 +580,312 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java</url>
+          <line>15</line>
+          <properties class="com.practiceJava.StudentGrading" method="readMarksFromUserAndPrintGrade">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java</url>
+          <line>3</line>
+          <properties class="com.practiceJava.StudentGrading" method="initiateGrading">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java</url>
+          <line>22</line>
+          <properties class="com.practiceJava.StudentGrading" method="printGrade">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>205</line>
+          <properties class="com.practiceJava.ArraysPractice" method="mergingReverseWhileLoop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>188</line>
+          <properties class="com.practiceJava.ArraysPractice" method="mergingReverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>169</line>
+          <properties class="com.practiceJava.ArraysPractice" method="mergingArraysReverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>148</line>
+          <properties class="com.practiceJava.ArraysPractice" method="mergingArrays">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>111</line>
+          <properties class="com.practiceJava.ArraysPractice" method="evenOddArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>104</line>
+          <properties class="com.practiceJava.ArraysPractice" method="printReverseNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>87</line>
+          <properties class="com.practiceJava.ArraysPractice" method="printEvenNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>73</line>
+          <properties class="com.practiceJava.ArraysPractice" method="valueBasedCounter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>67</line>
+          <properties class="com.practiceJava.ArraysPractice" method="indexBasedSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>49</line>
+          <properties class="com.practiceJava.ArraysPractice" method="valueBasedSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>29</line>
+          <properties class="com.practiceJava.ArraysPractice" method="updateArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java</url>
+          <line>5</line>
+          <properties class="com.practiceJava.ArraysPractice" method="takingUserInputs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringMethods.java</url>
+          <line>82</line>
+          <properties class="com.practiceJava.StringMethods" method="split">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>20</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="swappingPractice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>5</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="myMainMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>29</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="swappingArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>42</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="swappingWithInt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>57</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="numbersOutput">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>73</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="charOutput">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>88</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="numberArrayOutput">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>105</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="swappingIntArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>122</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="stringBasedSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>138</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="indexBasedSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>144</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="stringBasedCounter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java</url>
+          <line>157</line>
+          <properties class="com.practiceJava.StringArrayPractice" method="printReverseString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>92</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="updateEmail">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>80</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="preparingAddress">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>9</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="prepareData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>107</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="updateSalary">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>118</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="printEmployeeDetails">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>131</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="myMainMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

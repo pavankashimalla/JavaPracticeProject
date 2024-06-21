@@ -44,6 +44,9 @@ public class ForLoopDemo {
         for (int i = 0;i < array.length ; i++){
             System.out.println(array[i]);
         }
+       /* for (int arr:array){
+            System.out.println(arr);
+        }*/
 
     }
 

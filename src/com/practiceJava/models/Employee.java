@@ -1,5 +1,8 @@
 package com.practiceJava.models;
 
+
+import java.util.ArrayList;
+
 public class Employee {
     public int id;
     public String firstName;
@@ -7,6 +10,26 @@ public class Employee {
     public String company;
     public String email;
     public int salary;
+
+    public Addresses addresses;
+
+    public ArrayList<Addresses> addressesArrayList ;
+
+    public ArrayList<Addresses> getAddressesArrayList() {
+        return addressesArrayList;
+    }
+
+    public void setAddressesArrayList(ArrayList<Addresses> addressesArrayList) {
+        this.addressesArrayList = addressesArrayList;
+    }
+
+    public Addresses getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(Addresses addresses) {
+        this.addresses = addresses;
+    }
 
     public int getId() {
         return id;
@@ -55,4 +78,8 @@ public class Employee {
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
+
+
+
 }
