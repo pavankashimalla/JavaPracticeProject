@@ -4,12 +4,38 @@ package com.practiceJava.models;
 import java.util.ArrayList;
 
 public class Employee {
-    public int id;
+    public Integer id;
     public String firstName;
     public String lastName;
     public String company;
     public String email;
     public int salary;
+
+    public String toString() {
+        return this.id + " = " + this.firstName ;
+    }
+
+    public boolean equals(Object object1){
+
+        Employee e = (Employee) object1;
+        //Integer intId = e.getId();
+        if (e.getId().equals(this.getId())){
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
+    public ArrayList<EmployeeCompany> employeeCompanyArrayList;
+
+    public ArrayList<EmployeeCompany> getEmployeeCompanyArrayList() {
+        return employeeCompanyArrayList;
+    }
+
+    public void setEmployeeCompanyArrayList(ArrayList<EmployeeCompany> employeeCompanyArrayList) {
+        this.employeeCompanyArrayList = employeeCompanyArrayList;
+    }
 
     public Addresses addresses;
 
@@ -31,11 +57,11 @@ public class Employee {
         this.addresses = addresses;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

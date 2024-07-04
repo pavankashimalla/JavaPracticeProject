@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1198d63c-23e7-49f3-9d70-ff0db1b3b1b4" name="Changes" comment="oops practice">
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/AllMathOperationsWithThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/AllMathOperationsWithTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/inheritance/MyMainMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceJava/models/EmployeeCompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/ArraysPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/CharArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/ForLoopDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StringArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StringMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/StudentGrading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practiceJava/models/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Addresses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practiceJava/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/models/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java" afterDir="false" />
@@ -360,7 +344,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>143</line>
+          <line>192</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -555,18 +539,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="223" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="224" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
-          <line>70</line>
+          <line>121</line>
           <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/collectionsPractice/ListPractice9.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="230" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -835,7 +814,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>92</line>
+          <line>141</line>
           <properties class="com.practiceJava.service.SettingEmail" method="updateEmail">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -844,7 +823,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>80</line>
+          <line>115</line>
           <properties class="com.practiceJava.service.SettingEmail" method="preparingAddress">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -853,16 +832,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>9</line>
-          <properties class="com.practiceJava.service.SettingEmail" method="prepareData">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>107</line>
+          <line>156</line>
           <properties class="com.practiceJava.service.SettingEmail" method="updateSalary">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -871,7 +841,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>118</line>
+          <line>167</line>
           <properties class="com.practiceJava.service.SettingEmail" method="printEmployeeDetails">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -880,12 +850,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
-          <line>131</line>
+          <line>180</line>
           <properties class="com.practiceJava.service.SettingEmail" method="myMainMethod">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practiceJava/service/SettingEmail.java</url>
+          <line>11</line>
+          <properties class="com.practiceJava.service.SettingEmail" method="prepareData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

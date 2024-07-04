@@ -2,6 +2,7 @@ package com.practiceJava.collectionsPractice;
 
 import com.practiceJava.models.Addresses;
 import com.practiceJava.models.Employee;
+import com.practiceJava.models.EmployeeCompany;
 import com.practiceJava.service.SettingEmail;
 
 import java.util.ArrayList;
@@ -21,7 +22,7 @@ public class ListPractice9 {
             }
         return employeeArrayList;
     }
-    //[1:[[houseNumber]],2:[[houseNumber]],3:[[houseNumber]]]
+    //[1:[houseNumber],2:[houseNumber],3:[houseNumber]]
     public void gettingAddress(ArrayList<Employee> employeeArrayList){
         for (int i = 0 ; i < employeeArrayList.size() ; i++){
 
@@ -50,7 +51,7 @@ public class ListPractice9 {
 
     }
 
-    //{1:[addresOject1,addressObject2],2:[addresOject1,addressObject2]}
+    //{1:[addressObject1,addressObject2],2:[addressObject1,addressObject2]}
     public void updatingState(Map<Integer , ArrayList<Addresses>> arrayListMap){
         for (Map.Entry<Integer , ArrayList<Addresses>> arrayListEntry : arrayListMap.entrySet()){
           ArrayList<Addresses> addresses = arrayListEntry.getValue();
@@ -61,14 +62,66 @@ public class ListPractice9 {
             System.out.println(addresses);
         }
     }
+    public void updatingPersonsState(Map<Integer , ArrayList<Addresses>> arrayListMap, int employeeId, String state){
+
+        for (Map.Entry<Integer , ArrayList<Addresses>> arrayListEntry : arrayListMap.entrySet()){
+          int id = arrayListEntry.getKey();
+          if (id == employeeId) {
+              ArrayList<Addresses> addressesArrayList = arrayListEntry.getValue();
+              for (int i = 0 ; i < addressesArrayList.size() ; i++){
+                Addresses addresses = addressesArrayList.get(i);
+                addresses.setState(state);
+                  System.out.println(addresses);
+              }
+          }
+        }
+    }
+    public void gettingCompanyDetails(ArrayList<Employee> employeeArrayList){
+        for (int i = 0 ; i < employeeArrayList.size(); i++){
+          Employee employeeObject = employeeArrayList.get(i);
+          String firstName = employeeObject.getFirstName();
+        ArrayList<EmployeeCompany> employeeCompanyArrayList = employeeObject.getEmployeeCompanyArrayList();
+         for (int j = 0 ; j < employeeCompanyArrayList.size() ; j++){
+              EmployeeCompany employeeCompany = employeeCompanyArrayList.get(j);
+             String companyName = employeeCompany.getCompanyName();
+           int experience = employeeCompany.getTotalYearOfExperience();
+             System.out.println(firstName + " company " + " name " + " is " + companyName + " Experience is " + experience);
+         }
+            System.out.println("---------------------------------");
+        }
+    }
+    public Map<Integer,ArrayList<EmployeeCompany>> arrayListToMap (ArrayList<Employee> employeeArrayList){
+        Map<Integer , ArrayList<EmployeeCompany>> arrayListMap = new HashMap<>();
+        for (int i = 0 ; i < employeeArrayList.size() ; i++){
+          Employee employee = employeeArrayList.get(i);
+
+          int employeeId = employee.getId();
+          arrayListMap.put(employeeId , employee.getEmployeeCompanyArrayList());
+            System.out.println(employee);
+            boolean bool = employee.equals(employee);
+            System.out.println(bool);
+        }
+
+
+        System.out.println(arrayListMap);
+        return arrayListMap;
+    }
+
     public void myMainMethod(){
         ArrayList<Employee> employeeArrayList = creatingEmployees();
-        gettingAddress(employeeArrayList);
+      /*  gettingAddress(employeeArrayList);
        Map<Integer ,ArrayList<Addresses>> arrayListMap = usingMap(employeeArrayList);
        updatingState(arrayListMap);
+       int employeeId = 2;
+       String state = "odisha";
+       updatingPersonsState(arrayListMap , employeeId , state);
+       gettingCompanyDetails(employeeArrayList);*/
+       arrayListToMap(employeeArrayList);
     }
     public static void main(String[] args){
-        ListPractice9 object = new ListPractice9();
-        object.myMainMethod();
+      //  ListPractice9 object = new ListPractice9();
+      //  object.myMainMethod();
+        new ListPractice9().myMainMethod();
     }
+
 }

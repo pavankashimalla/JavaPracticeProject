@@ -11,6 +11,19 @@ public class Addresses {
 
     public int pinCode;
 
+    public String toString(){
+        return this.city + "=" + this.state;
+    }
+
+    public boolean equals(Object object){
+        Employee e = (Employee) object;
+        if (e.getId().equals(this.houseNumber)){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
     public String getRoadName() {
         return roadName;
     }

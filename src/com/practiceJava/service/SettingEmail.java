@@ -2,7 +2,9 @@ package com.practiceJava.service;
 
 import com.practiceJava.models.Employee;
 import com.practiceJava.models.Addresses;
+import com.practiceJava.models.EmployeeCompany;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,9 +31,20 @@ public Employee[] prepareData(){
     employeeObject1.setId(1);
     employeeObject1.setFirstName("pavan");
     employeeObject1.setLastName("k");
-    employeeObject1.setCompany("java");
+   // employeeObject1.setCompany("java");
+    ArrayList<EmployeeCompany> employeeCompanyArrayList = new ArrayList<>();
+    LocalDate company1StatingDate = LocalDate.of(2021,5,19);
+    LocalDate company1EndingDate = LocalDate.of(2023,1,29);
+    EmployeeCompany emp1Company1 = preparingEmployeeCompany(787,"waffles",120,"jhon","developer",company1StatingDate,company1EndingDate,2);
+    LocalDate company2StartingDate = LocalDate.of(2023,1,29);
+    LocalDate company2EndingDate = LocalDate.of(2023,9,29);
+    EmployeeCompany emp1Company2 = preparingEmployeeCompany(609,"milton",190,"rashid","developer",company2StartingDate,company2EndingDate,1);
+    employeeCompanyArrayList.add(emp1Company1);
+    employeeCompanyArrayList.add(emp1Company2);
+    employeeObject1.setEmployeeCompanyArrayList(employeeCompanyArrayList);
+
     employeeObject1.setSalary(10000);
-    Addresses emp1Address1 = preparingAddress("road5" ,"9-0-88" , " ts" , "kmm" ,90087);
+    Addresses emp1Address1 = preparingAddress("road5" ,"9-0-88" , " ts " , "kmm" ,90087);
     //employeeObject1.setAddresses(address1);
     ArrayList<Addresses> addressesArrayList = new ArrayList<>();
     Addresses emp1Address2 = preparingAddress("road 6" , "0-8-9" , "ts" ,"kmm" , 56008);
@@ -45,7 +58,18 @@ public Employee[] prepareData(){
     employeeObject2.setId(2);
     employeeObject2.setFirstName("praveen");
     employeeObject2.setLastName("s");
-    employeeObject2.setCompany("python");
+   // employeeObject2.setCompany("python");
+    ArrayList<EmployeeCompany> employeeCompanyArrayList2 = new ArrayList<>();
+    LocalDate emp2company1StartingDate = LocalDate.of(2019,9,29);
+    LocalDate emp2company1EndingDate = LocalDate.of(2021,9,20);
+    LocalDate emp2company2StartingDate = LocalDate.of(2022,6,29);
+    LocalDate emp2company2EndingDate = LocalDate.of(2023,9,19);
+    EmployeeCompany emp2Company1 = preparingEmployeeCompany(687,"homble",200,"kanni","analyst",emp2company1StartingDate,emp2company1EndingDate,1);
+    EmployeeCompany emp2Company2 = preparingEmployeeCompany(60998,"factory",90,"dhani","analyst",emp2company2StartingDate,emp2company2EndingDate,2);
+    employeeCompanyArrayList2.add(emp2Company1);
+    employeeCompanyArrayList2.add(emp2Company2);
+    employeeObject2.setEmployeeCompanyArrayList(employeeCompanyArrayList2);
+
     employeeObject2.setSalary(24000);
     Addresses emp2Address1 = preparingAddress("fastRoad" ,"4-8-4","AP","vij",70089);
    // employeeObject2.setAddresses(address2);
@@ -60,7 +84,18 @@ public Employee[] prepareData(){
     employeeObject3.setId(3);
     employeeObject3.setFirstName("naveen");
     employeeObject3.setLastName("m");
-    employeeObject3.setCompany("sql");
+   // employeeObject3.setCompany("sql");
+    ArrayList<EmployeeCompany> employeeCompanyArrayList3 = new ArrayList<>();
+    LocalDate emp3company1StaringDate = LocalDate.of(2019,4,12);
+    LocalDate emp3Company1EndingDate = LocalDate.of(2022,5,20);
+    LocalDate emp3company2StartingDate = LocalDate.of(2022,7,9);
+    LocalDate emp3company2EndingDate = LocalDate.of(2023,9,29);
+    EmployeeCompany emp3Company1 = preparingEmployeeCompany(206 ,"global",54 , "raja" ,"developer",emp3company1StaringDate,emp3Company1EndingDate,3);
+    EmployeeCompany emp3Company2 = preparingEmployeeCompany(980,"optimize",67,"kumar","developer",emp3company2StartingDate,emp3company2EndingDate,1);
+    employeeCompanyArrayList3.add(emp3Company1);
+    employeeCompanyArrayList3.add(emp3Company2);
+    employeeObject3.setEmployeeCompanyArrayList(employeeCompanyArrayList3);
+
     employeeObject3.setSalary(46000);
     Addresses emp3Address1 = preparingAddress("lastN","28-9-0","Ap","ellur",60902);
    // employeeObject3.setAddresses(address3);
@@ -88,8 +123,22 @@ public Addresses preparingAddress(String roadName , String houseNumber , String 
 
 
     return addressObject;
+}
+public EmployeeCompany preparingEmployeeCompany (int companyId , String companyName , int totalEmployees , String companyCeo , String designation , LocalDate startingDate , LocalDate endingDate , int totalYearOfExperience){
+    EmployeeCompany employeeCompanyObject = new EmployeeCompany();
+    employeeCompanyObject.setCompanyId(companyId);
+    employeeCompanyObject.setCompanyName(companyName);
+    employeeCompanyObject.setTotalEmployees(totalEmployees);
+    employeeCompanyObject.setCompanyCeo(companyCeo);
+    employeeCompanyObject.setDesignation(designation);
+    employeeCompanyObject.setStartingDate(startingDate);
+    employeeCompanyObject.setEndDate(endingDate);
+    employeeCompanyObject.setTotalYearOfExperience(totalYearOfExperience);
+
+    return employeeCompanyObject;
 
 }
+
 public void updateEmail(Employee[] employees){
     for (int i = 0 ; i < employees.length ; i++){
         Employee employeeObject = employees[i];
