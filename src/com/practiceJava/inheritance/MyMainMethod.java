@@ -17,6 +17,8 @@ public class MyMainMethod {
             int result4 = object.division(9,0);
         }
         catch (ArithmeticException ae){
+
+
             System.out.println(ae.toString());
            // throw ae;
             //int result4 = object.division(9,1);

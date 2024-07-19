@@ -109,13 +109,13 @@ public class ListPractice9 {
 
     public void myMainMethod(){
         ArrayList<Employee> employeeArrayList = creatingEmployees();
-      /*  gettingAddress(employeeArrayList);
+        gettingAddress(employeeArrayList);
        Map<Integer ,ArrayList<Addresses>> arrayListMap = usingMap(employeeArrayList);
        updatingState(arrayListMap);
        int employeeId = 2;
        String state = "odisha";
        updatingPersonsState(arrayListMap , employeeId , state);
-       gettingCompanyDetails(employeeArrayList);*/
+       gettingCompanyDetails(employeeArrayList);
        arrayListToMap(employeeArrayList);
     }
     public static void main(String[] args){
